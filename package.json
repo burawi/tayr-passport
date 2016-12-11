@@ -1,0 +1,34 @@
+{
+  "name": "tayr-passport",
+  "version": "0.0.1",
+  "description": "passport settings using tayr and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burawi/tayr-passport.git"
+  },
+  "keywords": [
+    "passport",
+    "tayr",
+    "express",
+    "nodejs"
+  ],
+  "author": "Abu Rawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burawi/tayr-passport/issues"
+  },
+  "homepage": "https://github.com/burawi/tayr-passport#readme",
+  "dependencies": {
+    "express-session": "^1.14.2",
+    "md5": "^2.2.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
