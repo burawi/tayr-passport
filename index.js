@@ -64,10 +64,7 @@ module.exports = {
                     passwordField: 'password'
                 },
                 function(req, email, password, done) {
-                    T.findOne(D.usersTable, {
-                        sql: D.usernameField+" = ?",
-                        vals: email
-                    }).then(
+                    T.findOne(D.usersTable, D.usernameField+" = ?", email).then(
                         function(user) {
                             // Username does not exist, log error & redirect back
                             if (!user) {
